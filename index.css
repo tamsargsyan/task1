@@ -1,0 +1,12 @@
+.link {
+    margin: 40px 0;
+}
+.link-btn {
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #036ac4;
+    color: #fff;
+}
