@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn">
+        <fluent-button appearance="accent">Button 1</fluent-button>
+    </div>
+    <div class="text-input">
+        <fluent-text-field appearance="outline" placeholder="user@email.com"></fluent-text-field>
+    </div>
+    <div class="multiline-input">
+        <fluent-text-area placeholder="How was your day ?"></fluent-text-area>
+    </div>
+    <div class="choice-input">
+        <fluent-radio-group orientation="vertical">
+            <fluent-radio>1</fluent-radio>
+            <fluent-radio>2</fluent-radio>
+            <fluent-radio>3</fluent-radio>
+            <fluent-radio>4</fluent-radio>
+        </fluent-radio-group>
+    </div>
+    <div class="multiselect-input">
+        <fluent-select>
+            <fluent-option value="1">1</fluent-option>
+            <fluent-option value="2">2</fluent-option>
+            <fluent-option value="3">3</fluent-option>
+        </fluent-select>
+    </div>
+    <div class="link">
+        <a href="#">link</a>
+    </div>
+    <div class="file">
+        <input type="file" />
+    </div>
+</body>
+</html>
